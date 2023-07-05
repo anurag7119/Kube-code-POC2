@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Kube_code_POC2_1688556372101-pr-trigger-input-set
+  identifier: Build_Kube_code_POC2_1688556372101prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessPracJuly
+  pipeline:
+    identifier: Build_Kube_code_POC2_1688556372101
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
