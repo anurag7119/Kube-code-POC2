@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Kube_code_POC2_1688556372101-push-trigger-input-set
+  identifier: Build_Kube_code_POC2_1688556372101pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessPracJuly
+  pipeline:
+    identifier: Build_Kube_code_POC2_1688556372101
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
